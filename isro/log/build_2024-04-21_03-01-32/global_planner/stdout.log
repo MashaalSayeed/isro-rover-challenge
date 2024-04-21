@@ -1,0 +1,34 @@
+running develop
+Removing /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global-planner.egg-link (link to .)
+running egg_info
+writing ../../build/global_planner/global_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/global_planner/global_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/global_planner/global_planner.egg-info/entry_points.txt
+writing requirements to ../../build/global_planner/global_planner.egg-info/requires.txt
+writing top-level names to ../../build/global_planner/global_planner.egg-info/top_level.txt
+reading manifest file '../../build/global_planner/global_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/global_planner/global_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zine/isro/build/global_planner/build
+creating /home/zine/isro/build/global_planner/build/lib
+creating /home/zine/isro/build/global_planner/build/lib/global_planner
+copying global_planner/planner.py -> /home/zine/isro/build/global_planner/build/lib/global_planner
+copying global_planner/planner_node.py -> /home/zine/isro/build/global_planner/build/lib/global_planner
+copying global_planner/__init__.py -> /home/zine/isro/build/global_planner/build/lib/global_planner
+running install
+running install_lib
+creating /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global_planner
+copying /home/zine/isro/build/global_planner/build/lib/global_planner/planner.py -> /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global_planner
+copying /home/zine/isro/build/global_planner/build/lib/global_planner/planner_node.py -> /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global_planner
+copying /home/zine/isro/build/global_planner/build/lib/global_planner/__init__.py -> /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global_planner
+byte-compiling /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global_planner/planner.py to planner.cpython-38.pyc
+byte-compiling /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global_planner/planner_node.py to planner_node.cpython-38.pyc
+byte-compiling /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global_planner/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/global_planner -> /home/zine/isro/install/global_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/zine/isro/install/global_planner/share/global_planner
+running install_egg_info
+Copying ../../build/global_planner/global_planner.egg-info to /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global_planner-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/zine/isro/build/global_planner/install.log'

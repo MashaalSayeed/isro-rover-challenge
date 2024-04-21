@@ -1,0 +1,17 @@
+[1.098s] Invoking command in '/home/zine/isro/build/map_server_node': PYTHONPATH=/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zine/isro/build/map_server_node/build --no-deps symlink_data
+[1.260s] running develop
+[1.443s] running egg_info
+[1.443s] writing map_server_node.egg-info/PKG-INFO
+[1.443s] writing dependency_links to map_server_node.egg-info/dependency_links.txt
+[1.443s] writing entry points to map_server_node.egg-info/entry_points.txt
+[1.443s] writing requirements to map_server_node.egg-info/requires.txt
+[1.443s] writing top-level names to map_server_node.egg-info/top_level.txt
+[1.443s] reading manifest file 'map_server_node.egg-info/SOURCES.txt'
+[1.444s] writing manifest file 'map_server_node.egg-info/SOURCES.txt'
+[1.444s] running build_ext
+[1.445s] Creating /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map-server-node.egg-link (link to .)
+[1.445s] Installing map_node script to /home/zine/isro/install/map_server_node/lib/map_server_node
+[1.445s] 
+[1.445s] Installed /home/zine/isro/build/map_server_node
+[1.445s] running symlink_data
+[1.480s] Invoked command in '/home/zine/isro/build/map_server_node' returned '0': PYTHONPATH=/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zine/isro/build/map_server_node/build --no-deps symlink_data

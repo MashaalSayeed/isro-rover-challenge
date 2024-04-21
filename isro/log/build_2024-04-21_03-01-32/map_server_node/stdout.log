@@ -1,0 +1,35 @@
+running develop
+Removing /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map-server-node.egg-link (link to .)
+running egg_info
+writing ../../build/map_server_node/map_server_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/map_server_node/map_server_node.egg-info/dependency_links.txt
+writing entry points to ../../build/map_server_node/map_server_node.egg-info/entry_points.txt
+writing requirements to ../../build/map_server_node/map_server_node.egg-info/requires.txt
+writing top-level names to ../../build/map_server_node/map_server_node.egg-info/top_level.txt
+reading manifest file '../../build/map_server_node/map_server_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/map_server_node/map_server_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zine/isro/build/map_server_node/build
+creating /home/zine/isro/build/map_server_node/build/lib
+creating /home/zine/isro/build/map_server_node/build/lib/map_server_node
+copying map_server_node/map_node.py -> /home/zine/isro/build/map_server_node/build/lib/map_server_node
+copying map_server_node/map_maker.py -> /home/zine/isro/build/map_server_node/build/lib/map_server_node
+copying map_server_node/__init__.py -> /home/zine/isro/build/map_server_node/build/lib/map_server_node
+running install
+running install_lib
+creating /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node
+copying /home/zine/isro/build/map_server_node/build/lib/map_server_node/map_node.py -> /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node
+copying /home/zine/isro/build/map_server_node/build/lib/map_server_node/map_maker.py -> /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node
+copying /home/zine/isro/build/map_server_node/build/lib/map_server_node/__init__.py -> /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node
+byte-compiling /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node/map_node.py to map_node.cpython-38.pyc
+byte-compiling /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node/map_maker.py to map_maker.cpython-38.pyc
+byte-compiling /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/map_server_node -> /home/zine/isro/install/map_server_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/zine/isro/install/map_server_node/share/map_server_node
+running install_egg_info
+Copying ../../build/map_server_node/map_server_node.egg-info to /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node-0.0.0-py3.8.egg-info
+running install_scripts
+Installing map_node script to /home/zine/isro/install/map_server_node/lib/map_server_node
+writing list of installed files to '/home/zine/isro/build/map_server_node/install.log'

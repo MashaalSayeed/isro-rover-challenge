@@ -1,0 +1,31 @@
+running develop
+Removing /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local-planner.egg-link (link to .)
+running egg_info
+writing ../../build/local_planner/local_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/local_planner/local_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/local_planner/local_planner.egg-info/entry_points.txt
+writing requirements to ../../build/local_planner/local_planner.egg-info/requires.txt
+writing top-level names to ../../build/local_planner/local_planner.egg-info/top_level.txt
+reading manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zine/isro/build/local_planner/build
+creating /home/zine/isro/build/local_planner/build/lib
+creating /home/zine/isro/build/local_planner/build/lib/local_planner
+copying local_planner/__init__.py -> /home/zine/isro/build/local_planner/build/lib/local_planner
+copying local_planner/controller_node.py -> /home/zine/isro/build/local_planner/build/lib/local_planner
+running install
+running install_lib
+creating /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local_planner
+copying /home/zine/isro/build/local_planner/build/lib/local_planner/__init__.py -> /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local_planner
+copying /home/zine/isro/build/local_planner/build/lib/local_planner/controller_node.py -> /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local_planner
+byte-compiling /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local_planner/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local_planner/controller_node.py to controller_node.cpython-38.pyc
+running install_data
+copying resource/local_planner -> /home/zine/isro/install/local_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/zine/isro/install/local_planner/share/local_planner
+running install_egg_info
+Copying ../../build/local_planner/local_planner.egg-info to /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local_planner-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/zine/isro/build/local_planner/install.log'

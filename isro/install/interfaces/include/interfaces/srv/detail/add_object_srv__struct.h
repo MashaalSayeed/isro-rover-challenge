@@ -1,0 +1,1 @@
+/home/zine/isro/build/interfaces/rosidl_generator_c/interfaces/srv/detail/add_object_srv__struct.h

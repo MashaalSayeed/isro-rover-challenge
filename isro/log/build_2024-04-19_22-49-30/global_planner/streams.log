@@ -1,0 +1,24 @@
+[1.130s] Invoking command in '/home/zine/isro/build/global_planner': PYTHONPATH=/home/zine/isro/build/global_planner/prefix_override:/home/zine/isro/install/global_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zine/isro/build/global_planner/build --no-deps symlink_data
+[1.281s] running develop
+[1.347s] running egg_info
+[1.347s] creating global_planner.egg-info
+[1.348s] writing global_planner.egg-info/PKG-INFO
+[1.348s] writing dependency_links to global_planner.egg-info/dependency_links.txt
+[1.348s] writing entry points to global_planner.egg-info/entry_points.txt
+[1.348s] writing requirements to global_planner.egg-info/requires.txt
+[1.348s] writing top-level names to global_planner.egg-info/top_level.txt
+[1.349s] writing manifest file 'global_planner.egg-info/SOURCES.txt'
+[1.367s] reading manifest file 'global_planner.egg-info/SOURCES.txt'
+[1.368s] writing manifest file 'global_planner.egg-info/SOURCES.txt'
+[1.387s] running build_ext
+[1.387s] Creating /home/zine/isro/install/global_planner/lib/python3.8/site-packages/site.py
+[1.389s] Creating /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global-planner.egg-link (link to .)
+[1.391s] 
+[1.391s] Installed /home/zine/isro/build/global_planner
+[1.391s] running symlink_data
+[1.391s] creating /home/zine/isro/install/global_planner/share/ament_index
+[1.391s] creating /home/zine/isro/install/global_planner/share/ament_index/resource_index
+[1.391s] creating /home/zine/isro/install/global_planner/share/ament_index/resource_index/packages
+[1.391s] symbolically linking /home/zine/isro/build/global_planner/resource/global_planner -> /home/zine/isro/install/global_planner/share/ament_index/resource_index/packages
+[1.391s] symbolically linking /home/zine/isro/build/global_planner/package.xml -> /home/zine/isro/install/global_planner/share/global_planner
+[1.426s] Invoked command in '/home/zine/isro/build/global_planner' returned '0': PYTHONPATH=/home/zine/isro/build/global_planner/prefix_override:/home/zine/isro/install/global_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zine/isro/build/global_planner/build --no-deps symlink_data

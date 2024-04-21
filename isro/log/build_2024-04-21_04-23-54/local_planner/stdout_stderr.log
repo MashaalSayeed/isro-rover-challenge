@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/local_planner/local_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/local_planner/local_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/local_planner/local_planner.egg-info/entry_points.txt
+writing requirements to ../../build/local_planner/local_planner.egg-info/requires.txt
+writing top-level names to ../../build/local_planner/local_planner.egg-info/top_level.txt
+reading manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/zine/isro/install/local_planner/lib/python3.8/site-packages/local_planner-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/local_planner/local_planner.egg-info to /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local_planner-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/zine/isro/build/local_planner/install.log'

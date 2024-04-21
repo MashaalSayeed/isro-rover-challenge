@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/AddObjectSrv.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module interfaces {
+  module srv {
+    struct AddObjectSrv_Request {
+      geometry_msgs::msg::Pose pose;
+
+      int8 tag;
+    };
+    struct AddObjectSrv_Response {
+      int8 success;
+    };
+  };
+};

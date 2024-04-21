@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (global_planner) JobQueued: {'identifier': 'global_planner', 'dependencies': OrderedDict()}
+[0.000185] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000196] (local_planner) JobQueued: {'identifier': 'local_planner', 'dependencies': OrderedDict()}
+[0.000204] (map_server_node) JobQueued: {'identifier': 'map_server_node', 'dependencies': OrderedDict()}
+[0.000212] (global_planner) JobStarted: {'identifier': 'global_planner'}
+[0.006064] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.012026] (local_planner) JobStarted: {'identifier': 'local_planner'}
+[0.016827] (map_server_node) JobStarted: {'identifier': 'map_server_node'}
+[0.107395] (-) TimerEvent: {}
+[0.162481] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.163709] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zine/isro/src/interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/zine/isro/install/interfaces'], 'cwd': '/home/zine/isro/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'zine'), ('SSH_AGENT_PID', '1473'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zine'), ('OLDPWD', '/home/zine'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zine'), ('JOURNAL_STREAM', '8:41021'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu20ROS:@/tmp/.ICE-unix/1560,unix/Ubuntu20ROS:/tmp/.ICE-unix/1560'), ('INVOCATION_ID', '7e53ff8cbaeb4b29999d35ca6666e3f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b6f8273_4ee3_46f4_ad8b_bdc213458770'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zine/isro/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.209656] (-) TimerEvent: {}
+[0.313254] (-) TimerEvent: {}
+[0.424375] (-) TimerEvent: {}
+[0.451702] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.524575] (-) TimerEvent: {}
+[0.626557] (-) TimerEvent: {}
+[0.645366] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.659688] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.729096] (-) TimerEvent: {}
+[0.738637] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.741231] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.920289] (-) TimerEvent: {}
+[1.041153] (-) TimerEvent: {}
+[1.045452] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.054375] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.054779] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.058709] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.121749] (local_planner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/zine/isro/build/local_planner/build', '--no-deps', 'symlink_data'], 'cwd': '/home/zine/isro/build/local_planner', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'zine', 'SSH_AGENT_PID': '1473', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/zine', 'OLDPWD': '/home/zine', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1372', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'zine', 'JOURNAL_STREAM': '8:41021', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zine', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu20ROS:@/tmp/.ICE-unix/1560,unix/Ubuntu20ROS:/tmp/.ICE-unix/1560', 'INVOCATION_ID': '7e53ff8cbaeb4b29999d35ca6666e3f6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0b6f8273_4ee3_46f4_ad8b_bdc213458770', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zine/isro/build/local_planner', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zine/isro/build/local_planner/prefix_override:/home/zine/isro/install/local_planner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.128689] (global_planner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/zine/isro/build/global_planner/build', '--no-deps', 'symlink_data'], 'cwd': '/home/zine/isro/build/global_planner', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'zine', 'SSH_AGENT_PID': '1473', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/zine', 'OLDPWD': '/home/zine', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1372', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'zine', 'JOURNAL_STREAM': '8:41021', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zine', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu20ROS:@/tmp/.ICE-unix/1560,unix/Ubuntu20ROS:/tmp/.ICE-unix/1560', 'INVOCATION_ID': '7e53ff8cbaeb4b29999d35ca6666e3f6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0b6f8273_4ee3_46f4_ad8b_bdc213458770', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zine/isro/build/global_planner', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zine/isro/build/global_planner/prefix_override:/home/zine/isro/install/global_planner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.131762] (map_server_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/zine/isro/build/map_server_node/build', '--no-deps', 'symlink_data'], 'cwd': '/home/zine/isro/build/map_server_node', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'zine', 'SSH_AGENT_PID': '1473', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/zine', 'OLDPWD': '/home/zine', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1372', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'zine', 'JOURNAL_STREAM': '8:41021', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zine', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu20ROS:@/tmp/.ICE-unix/1560,unix/Ubuntu20ROS:/tmp/.ICE-unix/1560', 'INVOCATION_ID': '7e53ff8cbaeb4b29999d35ca6666e3f6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0b6f8273_4ee3_46f4_ad8b_bdc213458770', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zine/isro/build/map_server_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.143945] (-) TimerEvent: {}
+[1.154753] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.155493] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.218180] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.227407] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.227751] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.237858] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.243951] (-) TimerEvent: {}
+[1.262459] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.262812] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.272297] (local_planner) StdoutLine: {'line': b'running develop\n'}
+[1.278965] (map_server_node) StdoutLine: {'line': b'running develop\n'}
+[1.280842] (global_planner) StdoutLine: {'line': b'running develop\n'}
+[1.335916] (local_planner) StdoutLine: {'line': b'running egg_info\n'}
+[1.336056] (local_planner) StdoutLine: {'line': b'creating local_planner.egg-info\n'}
+[1.336090] (local_planner) StdoutLine: {'line': b'writing local_planner.egg-info/PKG-INFO\n'}
+[1.336147] (local_planner) StdoutLine: {'line': b'writing dependency_links to local_planner.egg-info/dependency_links.txt\n'}
+[1.336653] (local_planner) StdoutLine: {'line': b'writing entry points to local_planner.egg-info/entry_points.txt\n'}
+[1.336748] (local_planner) StdoutLine: {'line': b'writing requirements to local_planner.egg-info/requires.txt\n'}
+[1.340159] (local_planner) StdoutLine: {'line': b'writing top-level names to local_planner.egg-info/top_level.txt\n'}
+[1.345400] (local_planner) StdoutLine: {'line': b"writing manifest file 'local_planner.egg-info/SOURCES.txt'\n"}
+[1.345529] (-) TimerEvent: {}
+[1.345919] (map_server_node) StdoutLine: {'line': b'running egg_info\n'}
+[1.346024] (map_server_node) StdoutLine: {'line': b'creating map_server_node.egg-info\n'}
+[1.346058] (map_server_node) StdoutLine: {'line': b'writing map_server_node.egg-info/PKG-INFO\n'}
+[1.346088] (map_server_node) StdoutLine: {'line': b'writing dependency_links to map_server_node.egg-info/dependency_links.txt\n'}
+[1.346121] (map_server_node) StdoutLine: {'line': b'writing entry points to map_server_node.egg-info/entry_points.txt\n'}
+[1.346149] (map_server_node) StdoutLine: {'line': b'writing requirements to map_server_node.egg-info/requires.txt\n'}
+[1.346176] (map_server_node) StdoutLine: {'line': b'writing top-level names to map_server_node.egg-info/top_level.txt\n'}
+[1.347494] (global_planner) StdoutLine: {'line': b'running egg_info\n'}
+[1.347678] (global_planner) StdoutLine: {'line': b'creating global_planner.egg-info\n'}
+[1.347723] (map_server_node) StdoutLine: {'line': b"writing manifest file 'map_server_node.egg-info/SOURCES.txt'\n"}
+[1.347816] (global_planner) StdoutLine: {'line': b'writing global_planner.egg-info/PKG-INFO\n'}
+[1.347865] (global_planner) StdoutLine: {'line': b'writing dependency_links to global_planner.egg-info/dependency_links.txt\n'}
+[1.348058] (global_planner) StdoutLine: {'line': b'writing entry points to global_planner.egg-info/entry_points.txt\n'}
+[1.348106] (global_planner) StdoutLine: {'line': b'writing requirements to global_planner.egg-info/requires.txt\n'}
+[1.348136] (global_planner) StdoutLine: {'line': b'writing top-level names to global_planner.egg-info/top_level.txt\n'}
+[1.348951] (global_planner) StdoutLine: {'line': b"writing manifest file 'global_planner.egg-info/SOURCES.txt'\n"}
+[1.363137] (local_planner) StdoutLine: {'line': b"reading manifest file 'local_planner.egg-info/SOURCES.txt'\n"}
+[1.364419] (map_server_node) StdoutLine: {'line': b"reading manifest file 'map_server_node.egg-info/SOURCES.txt'\n"}
+[1.365303] (local_planner) StdoutLine: {'line': b"writing manifest file 'local_planner.egg-info/SOURCES.txt'\n"}
+[1.365454] (map_server_node) StdoutLine: {'line': b"writing manifest file 'map_server_node.egg-info/SOURCES.txt'\n"}
+[1.366786] (global_planner) StdoutLine: {'line': b"reading manifest file 'global_planner.egg-info/SOURCES.txt'\n"}
+[1.367718] (global_planner) StdoutLine: {'line': b"writing manifest file 'global_planner.egg-info/SOURCES.txt'\n"}
+[1.377606] (interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.385324] (map_server_node) StdoutLine: {'line': b'running build_ext\n'}
+[1.386031] (map_server_node) StdoutLine: {'line': b'Creating /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/site.py\n'}
+[1.387470] (map_server_node) StdoutLine: {'line': b'Creating /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map-server-node.egg-link (link to .)\n'}
+[1.387617] (global_planner) StdoutLine: {'line': b'running build_ext\n'}
+[1.387661] (global_planner) StdoutLine: {'line': b'Creating /home/zine/isro/install/global_planner/lib/python3.8/site-packages/site.py\n'}
+[1.388375] (map_server_node) StdoutLine: {'line': b'Installing map_node script to /home/zine/isro/install/map_server_node/lib/map_server_node\n'}
+[1.388473] (map_server_node) StdoutLine: {'line': b'\n'}
+[1.388508] (map_server_node) StdoutLine: {'line': b'Installed /home/zine/isro/build/map_server_node\n'}
+[1.388536] (map_server_node) StdoutLine: {'line': b'running symlink_data\n'}
+[1.388565] (map_server_node) StdoutLine: {'line': b'creating /home/zine/isro/install/map_server_node/share/ament_index\n'}
+[1.388944] (global_planner) StdoutLine: {'line': b'Creating /home/zine/isro/install/global_planner/lib/python3.8/site-packages/global-planner.egg-link (link to .)\n'}
+[1.389018] (map_server_node) StdoutLine: {'line': b'creating /home/zine/isro/install/map_server_node/share/ament_index/resource_index\n'}
+[1.389247] (map_server_node) StdoutLine: {'line': b'creating /home/zine/isro/install/map_server_node/share/ament_index/resource_index/packages\n'}
+[1.389308] (map_server_node) StdoutLine: {'line': b'symbolically linking /home/zine/isro/build/map_server_node/resource/map_server_node -> /home/zine/isro/install/map_server_node/share/ament_index/resource_index/packages\n'}
+[1.389341] (map_server_node) StdoutLine: {'line': b'symbolically linking /home/zine/isro/build/map_server_node/package.xml -> /home/zine/isro/install/map_server_node/share/map_server_node\n'}
+[1.391105] (global_planner) StdoutLine: {'line': b'\n'}
+[1.391178] (global_planner) StdoutLine: {'line': b'Installed /home/zine/isro/build/global_planner\n'}
+[1.391209] (global_planner) StdoutLine: {'line': b'running symlink_data\n'}
+[1.391238] (global_planner) StdoutLine: {'line': b'creating /home/zine/isro/install/global_planner/share/ament_index\n'}
+[1.391266] (global_planner) StdoutLine: {'line': b'creating /home/zine/isro/install/global_planner/share/ament_index/resource_index\n'}
+[1.391293] (global_planner) StdoutLine: {'line': b'creating /home/zine/isro/install/global_planner/share/ament_index/resource_index/packages\n'}
+[1.391321] (global_planner) StdoutLine: {'line': b'symbolically linking /home/zine/isro/build/global_planner/resource/global_planner -> /home/zine/isro/install/global_planner/share/ament_index/resource_index/packages\n'}
+[1.391555] (global_planner) StdoutLine: {'line': b'symbolically linking /home/zine/isro/build/global_planner/package.xml -> /home/zine/isro/install/global_planner/share/global_planner\n'}
+[1.393892] (local_planner) StdoutLine: {'line': b'running build_ext\n'}
+[1.394259] (local_planner) StdoutLine: {'line': b'Creating /home/zine/isro/install/local_planner/lib/python3.8/site-packages/site.py\n'}
+[1.395630] (local_planner) StdoutLine: {'line': b'Creating /home/zine/isro/install/local_planner/lib/python3.8/site-packages/local-planner.egg-link (link to .)\n'}
+[1.396206] (local_planner) StdoutLine: {'line': b'\n'}
+[1.396291] (local_planner) StdoutLine: {'line': b'Installed /home/zine/isro/build/local_planner\n'}
+[1.396326] (local_planner) StdoutLine: {'line': b'running symlink_data\n'}
+[1.396356] (local_planner) StdoutLine: {'line': b'creating /home/zine/isro/install/local_planner/share/ament_index\n'}
+[1.396387] (local_planner) StdoutLine: {'line': b'creating /home/zine/isro/install/local_planner/share/ament_index/resource_index\n'}
+[1.396732] (local_planner) StdoutLine: {'line': b'creating /home/zine/isro/install/local_planner/share/ament_index/resource_index/packages\n'}
+[1.396823] (local_planner) StdoutLine: {'line': b'symbolically linking /home/zine/isro/build/local_planner/resource/local_planner -> /home/zine/isro/install/local_planner/share/ament_index/resource_index/packages\n'}
+[1.396861] (local_planner) StdoutLine: {'line': b'symbolically linking /home/zine/isro/build/local_planner/package.xml -> /home/zine/isro/install/local_planner/share/local_planner\n'}
+[1.415124] (map_server_node) CommandEnded: {'returncode': 0}
+[1.422843] (map_server_node) JobEnded: {'identifier': 'map_server_node', 'rc': 0}
+[1.426003] (global_planner) CommandEnded: {'returncode': 0}
+[1.428652] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.432371] (global_planner) JobEnded: {'identifier': 'global_planner', 'rc': 0}
+[1.434315] (local_planner) CommandEnded: {'returncode': 0}
+[1.444436] (local_planner) JobEnded: {'identifier': 'local_planner', 'rc': 0}
+[1.447382] (-) TimerEvent: {}
+[1.501243] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.511940] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.549590] (-) TimerEvent: {}
+[1.584720] (interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.605202] (interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.650954] (-) TimerEvent: {}
+[1.677524] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.754013] (-) TimerEvent: {}
+[1.763883] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.789035] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.854707] (-) TimerEvent: {}
+[1.900790] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.960339] (-) TimerEvent: {}
+[2.057828] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.063439] (-) TimerEvent: {}
+[2.123227] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.139588] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.141671] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.161289] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.161481] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.161525] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.161555] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.165091] (-) TimerEvent: {}
+[2.174168] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.225097] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.259043] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.260897] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.265445] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.265512] (-) TimerEvent: {}
+[2.305900] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.307797] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/zine/isro/build/interfaces\n'}
+[2.313708] (interfaces) CommandEnded: {'returncode': 0}
+[2.314332] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[2.317163] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zine/isro/build/interfaces', '--', '-j12', '-l12'], 'cwd': '/home/zine/isro/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'zine'), ('SSH_AGENT_PID', '1473'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zine'), ('OLDPWD', '/home/zine'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zine'), ('JOURNAL_STREAM', '8:41021'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu20ROS:@/tmp/.ICE-unix/1560,unix/Ubuntu20ROS:/tmp/.ICE-unix/1560'), ('INVOCATION_ID', '7e53ff8cbaeb4b29999d35ca6666e3f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b6f8273_4ee3_46f4_ad8b_bdc213458770'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zine/isro/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.346767] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[2.347348] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.355468] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.365635] (-) TimerEvent: {}
+[2.476456] (-) TimerEvent: {}
+[2.495803] (interfaces) StdoutLine: {'line': b'[  6%] Built target interfaces__cpp\n'}
+[2.515641] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.537128] (interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.537270] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.557856] (interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.577298] (-) TimerEvent: {}
+[2.615144] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_object_srv__functions.c.o\x1b[0m\n'}
+[2.678037] (-) TimerEvent: {}
+[2.699295] (interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.716236] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.755805] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.755961] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.775046] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/add_object_srv__type_support.cpp.o\x1b[0m\n'}
+[2.780692] (-) TimerEvent: {}
+[2.823409] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/add_object_srv__type_support.cpp.o\x1b[0m\n'}
+[2.860200] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/add_object_srv__type_support.cpp.o\x1b[0m\n'}
+[2.880953] (-) TimerEvent: {}
+[2.892716] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_generator_c\n'}
+[2.904244] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.904417] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.982343] (-) TimerEvent: {}
+[3.038760] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.051147] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/add_object_srv__type_support.cpp.o\x1b[0m\n'}
+[3.051701] (interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.059812] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.077394] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/add_object_srv__type_support.c.o\x1b[0m\n'}
+[3.077858] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.079458] (interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.082757] (-) TimerEvent: {}
+[3.085985] (interfaces) StdoutLine: {'line': b'[ 54%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[3.111927] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.117150] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_c\n'}
+[3.140451] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.149789] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[3.182759] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.182901] (-) TimerEvent: {}
+[3.245998] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.253567] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.288324] (-) TimerEvent: {}
+[3.389695] (-) TimerEvent: {}
+[3.390434] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.404935] (interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/add_object_srv__type_support_c.cpp.o\x1b[0m\n'}
+[3.502288] (-) TimerEvent: {}
+[3.595032] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.603405] (-) TimerEvent: {}
+[3.655421] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.663064] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces\x1b[0m\n'}
+[3.670381] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[3.679504] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__py\x1b[0m\n'}
+[3.690455] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.777494] (-) TimerEvent: {}
+[3.879913] (-) TimerEvent: {}
+[3.957814] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[3.967522] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__python\x1b[0m\n'}
+[3.980806] (-) TimerEvent: {}
+[4.031458] (interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_add_object_srv_s.c.o\x1b[0m\n'}
+[4.081694] (-) TimerEvent: {}
+[4.109563] (interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so\x1b[0m\n'}
+[4.140258] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__python\n'}
+[4.148157] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.148291] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.148702] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.172431] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.172574] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.172953] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.183064] (-) TimerEvent: {}
+[4.232969] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.233501] (interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.234126] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.265908] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[4.266057] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.284691] (-) TimerEvent: {}
+[4.289526] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.302169] (interfaces) CommandEnded: {'returncode': 0}
+[4.367305] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[4.374340] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zine/isro/build/interfaces'], 'cwd': '/home/zine/isro/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'zine'), ('SSH_AGENT_PID', '1473'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zine'), ('OLDPWD', '/home/zine'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zine'), ('JOURNAL_STREAM', '8:41021'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu20ROS:@/tmp/.ICE-unix/1560,unix/Ubuntu20ROS:/tmp/.ICE-unix/1560'), ('INVOCATION_ID', '7e53ff8cbaeb4b29999d35ca6666e3f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b6f8273_4ee3_46f4_ad8b_bdc213458770'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zine/isro/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.388345] (-) TimerEvent: {}
+[4.393465] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.393582] (interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.393616] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[4.398533] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.403909] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/add_object_srv.h\n'}
+[4.411580] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__functions.h\n'}
+[4.417602] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__struct.h\n'}
+[4.422781] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__type_support.h\n'}
+[4.429010] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[4.434891] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[4.440624] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.446614] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[4.452448] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.457961] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.463229] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.469350] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.474716] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.480026] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__rosidl_typesupport_introspection_c.h\n'}
+[4.485727] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.491080] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/add_object_srv.hpp\n'}
+[4.491161] (-) TimerEvent: {}
+[4.496402] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__builder.hpp\n'}
+[4.502214] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__struct.hpp\n'}
+[4.507727] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__traits.hpp\n'}
+[4.513462] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__type_support.hpp\n'}
+[4.518958] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.525339] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[4.531283] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[4.537229] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[4.542764] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py\n'}
+[4.549100] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_add_object_srv.py\n'}
+[4.555068] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.561346] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.567347] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.573380] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/lib/libinterfaces__python.so\n'}
+[4.578973] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/srv/AddObjectSrv.idl\n'}
+[4.584614] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/srv/AddObjectSrv.srv\n'}
+[4.590551] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/srv/AddObjectSrv_Request.msg\n'}
+[4.591777] (-) TimerEvent: {}
+[4.596008] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/srv/AddObjectSrv_Response.msg\n'}
+[4.602426] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[4.607709] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[4.613271] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[4.618592] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[4.624934] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/path.sh\n'}
+[4.630808] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[4.636391] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/local_setup.bash\n'}
+[4.642213] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/local_setup.sh\n'}
+[4.647717] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[4.653843] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[4.659168] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/package.dsv\n'}
+[4.664950] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[4.670590] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.675924] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.681581] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.687260] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.693469] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.693594] (-) TimerEvent: {}
+[4.699604] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.705629] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.711010] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[4.716459] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[4.721888] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/package.xml\n'}
+[4.730235] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[4.730533] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[4.730601] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.730761] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.730813] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[4.731025] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.731104] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.731331] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.731386] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[4.731603] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.752862] (interfaces) StdoutLine: {'line': b"Compiling '/home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...\n"}
+[4.755184] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[4.755264] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.755466] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.755810] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.755884] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.755919] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.758662] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.758738] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.758772] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.758800] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.758827] (interfaces) StdoutLine: {'line': b'-- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.761014] (interfaces) CommandEnded: {'returncode': 0}
+[4.804144] (-) TimerEvent: {}
+[4.835261] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[4.836537] (-) EventReactorShutdown: {}

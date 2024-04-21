@@ -1,0 +1,189 @@
+[0.161s] Invoking command in '/home/zine/isro/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zine/isro/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/isro/install/interfaces
+[0.446s] -- The C compiler identification is GNU 9.4.0
+[0.639s] -- The CXX compiler identification is GNU 9.4.0
+[0.654s] -- Check for working C compiler: /usr/bin/cc
+[0.733s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.735s] -- Detecting C compiler ABI info
+[1.039s] -- Detecting C compiler ABI info - done
+[1.048s] -- Detecting C compile features
+[1.049s] -- Detecting C compile features - done
+[1.053s] -- Check for working CXX compiler: /usr/bin/c++
+[1.149s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.149s] -- Detecting CXX compiler ABI info
+[1.212s] -- Detecting CXX compiler ABI info - done
+[1.221s] -- Detecting CXX compile features
+[1.222s] -- Detecting CXX compile features - done
+[1.232s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.256s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.257s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.372s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.423s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.506s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.579s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.599s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.758s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.783s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.895s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.134s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.136s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.155s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.155s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.155s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.168s] -- Found PythonExtra: .so  
+[2.219s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.253s] -- Added test 'lint_cmake' to check CMake code style
+[2.255s] -- Added test 'xmllint' to check XML markup files
+[2.259s] -- Configuring done
+[2.300s] -- Generating done
+[2.302s] -- Build files have been written to: /home/zine/isro/build/interfaces
+[2.308s] Invoked command in '/home/zine/isro/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zine/isro/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/isro/install/interfaces
+[2.311s] Invoking command in '/home/zine/isro/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zine/isro/build/interfaces -- -j12 -l12
+[2.341s] [35m[1mScanning dependencies of target interfaces__cpp[0m
+[2.341s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.349s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.490s] [  6%] Built target interfaces__cpp
+[2.513s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[2.531s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.531s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.552s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.609s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_object_srv__functions.c.o[0m
+[2.693s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[2.710s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[2.750s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.750s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.769s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/add_object_srv__type_support.cpp.o[0m
+[2.817s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/add_object_srv__type_support.cpp.o[0m
+[2.854s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/add_object_srv__type_support.cpp.o[0m
+[2.887s] [ 32%] Built target interfaces__rosidl_generator_c
+[2.898s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.898s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.033s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[3.045s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/add_object_srv__type_support.cpp.o[0m
+[3.046s] [ 45%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[3.054s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[3.071s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/add_object_srv__type_support.c.o[0m
+[3.072s] [ 51%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.073s] [ 54%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[3.080s] [ 54%] Built target interfaces__rosidl_typesupport_cpp
+[3.106s] [ 58%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[3.111s] [ 58%] Built target interfaces__rosidl_typesupport_c
+[3.134s] [ 58%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[3.144s] [ 58%] Built target interfaces__rosidl_typesupport_introspection_c
+[3.177s] [ 61%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.240s] [ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[3.248s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.384s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.399s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/add_object_srv__type_support_c.cpp.o[0m
+[3.589s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.649s] [ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[3.657s] [35m[1mScanning dependencies of target interfaces[0m
+[3.664s] [ 70%] Built target interfaces
+[3.673s] [35m[1mScanning dependencies of target interfaces__py[0m
+[3.684s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.952s] [ 74%] Built target interfaces__py
+[3.961s] [35m[1mScanning dependencies of target interfaces__python[0m
+[4.025s] [ 77%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_add_object_srv_s.c.o[0m
+[4.104s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[4.134s] [ 80%] Built target interfaces__python
+[4.142s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.142s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[4.143s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.166s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.166s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.167s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.227s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.227s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.228s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.260s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[4.260s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[4.284s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.296s] Invoked command in '/home/zine/isro/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zine/isro/build/interfaces -- -j12 -l12
+[4.369s] Invoking command in '/home/zine/isro/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zine/isro/build/interfaces
+[4.387s] -- Install configuration: ""
+[4.387s] -- Execute custom install script
+[4.388s] -- Symlinking: /home/zine/isro/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[4.392s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.398s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/add_object_srv.h
+[4.406s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__functions.h
+[4.412s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__struct.h
+[4.417s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__type_support.h
+[4.423s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/library_path.sh
+[4.429s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/library_path.dsv
+[4.435s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.441s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__rosidl_typesupport_fastrtps_c.h
+[4.446s] -- Symlinking: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[4.452s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.457s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[4.463s] -- Symlinking: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.469s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.474s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__rosidl_typesupport_introspection_c.h
+[4.480s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.485s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/add_object_srv.hpp
+[4.490s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__builder.hpp
+[4.496s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__struct.hpp
+[4.502s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__traits.hpp
+[4.507s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__type_support.hpp
+[4.513s] -- Symlinking: /home/zine/isro/install/interfaces/include/interfaces/srv/detail/add_object_srv__rosidl_typesupport_introspection_cpp.hpp
+[4.519s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/pythonpath.sh
+[4.525s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[4.531s] -- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[4.537s] -- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py
+[4.543s] -- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_add_object_srv.py
+[4.549s] -- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.555s] -- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.561s] -- Symlinking: /home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.567s] -- Symlinking: /home/zine/isro/install/interfaces/lib/libinterfaces__python.so
+[4.573s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/srv/AddObjectSrv.idl
+[4.579s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/srv/AddObjectSrv.srv
+[4.584s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/srv/AddObjectSrv_Request.msg
+[4.590s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/srv/AddObjectSrv_Response.msg
+[4.596s] -- Symlinking: /home/zine/isro/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[4.602s] -- Symlinking: /home/zine/isro/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[4.607s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[4.613s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[4.619s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/path.sh
+[4.625s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/environment/path.dsv
+[4.630s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/local_setup.bash
+[4.636s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/local_setup.sh
+[4.642s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/local_setup.zsh
+[4.648s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/local_setup.dsv
+[4.653s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/package.dsv
+[4.659s] -- Symlinking: /home/zine/isro/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[4.665s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[4.670s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.676s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.681s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.687s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.694s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.700s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.705s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[4.710s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[4.716s] -- Symlinking: /home/zine/isro/install/interfaces/share/interfaces/package.xml
+[4.724s] -- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[4.724s] -- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[4.725s] -- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[4.725s] -- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.725s] -- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[4.725s] -- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[4.725s] -- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[4.725s] -- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.725s] -- Installing: /home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[4.726s] -- Set runtime path of "/home/zine/isro/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[4.747s] Compiling '/home/zine/isro/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...
+[4.749s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[4.749s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.749s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.750s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.750s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[4.750s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.753s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[4.753s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.753s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.753s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[4.753s] -- Installing: /home/zine/isro/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.755s] Invoked command in '/home/zine/isro/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zine/isro/build/interfaces

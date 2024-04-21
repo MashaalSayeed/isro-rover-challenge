@@ -1,0 +1,21 @@
+[0.987s] Invoking command in '/home/zine/isro/src/map_server_node': PYTHONPATH=/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_server_node build --build-base /home/zine/isro/build/map_server_node/build install --record /home/zine/isro/build/map_server_node/install.log --single-version-externally-managed install_data
+[1.211s] running egg_info
+[1.216s] writing ../../build/map_server_node/map_server_node.egg-info/PKG-INFO
+[1.216s] writing dependency_links to ../../build/map_server_node/map_server_node.egg-info/dependency_links.txt
+[1.216s] writing entry points to ../../build/map_server_node/map_server_node.egg-info/entry_points.txt
+[1.216s] writing requirements to ../../build/map_server_node/map_server_node.egg-info/requires.txt
+[1.227s] writing top-level names to ../../build/map_server_node/map_server_node.egg-info/top_level.txt
+[1.283s] reading manifest file '../../build/map_server_node/map_server_node.egg-info/SOURCES.txt'
+[1.283s] writing manifest file '../../build/map_server_node/map_server_node.egg-info/SOURCES.txt'
+[1.283s] running build
+[1.283s] running build_py
+[1.283s] running install
+[1.284s] running install_lib
+[1.288s] running install_data
+[1.288s] running install_egg_info
+[1.299s] removing '/home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node-0.0.0-py3.8.egg-info' (and everything under it)
+[1.299s] Copying ../../build/map_server_node/map_server_node.egg-info to /home/zine/isro/install/map_server_node/lib/python3.8/site-packages/map_server_node-0.0.0-py3.8.egg-info
+[1.299s] running install_scripts
+[1.324s] Installing map_node script to /home/zine/isro/install/map_server_node/lib/map_server_node
+[1.324s] writing list of installed files to '/home/zine/isro/build/map_server_node/install.log'
+[1.395s] Invoked command in '/home/zine/isro/src/map_server_node' returned '0': PYTHONPATH=/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_server_node build --build-base /home/zine/isro/build/map_server_node/build install --record /home/zine/isro/build/map_server_node/install.log --single-version-externally-managed install_data

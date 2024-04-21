@@ -1,0 +1,379 @@
+[0.205s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.205s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6af8f060a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6af8f060a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6af8d864f0>)
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.311s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zine/isro'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/global_planner' with type 'ros.ament_python' and name 'global_planner'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/local_planner' with type 'ros.ament_python' and name 'local_planner'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server_node) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map_server_node' with type 'ros.ament_python' and name 'map_server_node'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sam_bot_description' with type 'ros.ament_cmake' and name 'sam_bot_description'
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/zine/isro/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/foxy
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_target' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'global_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zine/isro/build/global_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zine/isro/install/global_planner', 'merge_install': False, 'path': '/home/zine/isro/src/global_planner', 'symlink_install': False, 'test_result_base': None}
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zine/isro/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zine/isro/install/interfaces', 'merge_install': False, 'path': '/home/zine/isro/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zine/isro/build/local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zine/isro/install/local_planner', 'merge_install': False, 'path': '/home/zine/isro/src/local_planner', 'symlink_install': False, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'map_server_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'map_server_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zine/isro/build/map_server_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zine/isro/install/map_server_node', 'merge_install': False, 'path': '/home/zine/isro/src/map_server_node', 'symlink_install': False, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'sam_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zine/isro/build/sam_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zine/isro/install/sam_bot_description', 'merge_install': False, 'path': '/home/zine/isro/src/sam_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.423s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.424s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zine/isro/src/global_planner' with build type 'ament_python'
+[0.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_planner', 'ament_prefix_path')
+[0.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/global_planner/share/global_planner/hook/ament_prefix_path.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/global_planner/share/global_planner/hook/ament_prefix_path.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/global_planner/share/global_planner/hook/ament_prefix_path.sh'
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zine/isro/src/interfaces' with build type 'ament_cmake'
+[0.436s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zine/isro/src/interfaces'
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zine/isro/src/local_planner' with build type 'ament_python'
+[0.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_planner', 'ament_prefix_path')
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/local_planner/share/local_planner/hook/ament_prefix_path.ps1'
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/local_planner/share/local_planner/hook/ament_prefix_path.dsv'
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/local_planner/share/local_planner/hook/ament_prefix_path.sh'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zine/isro/src/map_server_node' with build type 'ament_python'
+[0.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_server_node', 'ament_prefix_path')
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/map_server_node/share/map_server_node/hook/ament_prefix_path.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/map_server_node/share/map_server_node/hook/ament_prefix_path.dsv'
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/map_server_node/share/map_server_node/hook/ament_prefix_path.sh'
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zine/isro/src/sam_bot_description' with build type 'ament_cmake'
+[0.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zine/isro/src/sam_bot_description'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.681s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zine/isro/src/global_planner'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake /home/zine/isro/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/zine/isro/install/interfaces
+[0.826s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zine/isro/src/local_planner'
+[0.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.001s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zine/isro/src/map_server_node'
+[1.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake /home/zine/isro/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/zine/isro/install/sam_bot_description
+[1.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/local_planner': PYTHONPATH=/home/zine/isro/build/local_planner/prefix_override:/home/zine/isro/install/local_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zine/isro/build/local_planner/build
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/global_planner': PYTHONPATH=/home/zine/isro/build/global_planner/prefix_override:/home/zine/isro/install/global_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zine/isro/build/global_planner/build
+[1.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/local_planner' returned '0': PYTHONPATH=/home/zine/isro/build/local_planner/prefix_override:/home/zine/isro/install/local_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zine/isro/build/local_planner/build
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/src/local_planner': PYTHONPATH=/home/zine/isro/build/local_planner/prefix_override:/home/zine/isro/install/local_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/zine/isro/build/local_planner/build install --record /home/zine/isro/build/local_planner/install.log --single-version-externally-managed install_data --force
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/global_planner' returned '0': PYTHONPATH=/home/zine/isro/build/global_planner/prefix_override:/home/zine/isro/install/global_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zine/isro/build/global_planner/build
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/src/global_planner': PYTHONPATH=/home/zine/isro/build/global_planner/prefix_override:/home/zine/isro/install/global_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_planner build --build-base /home/zine/isro/build/global_planner/build install --record /home/zine/isro/build/global_planner/install.log --single-version-externally-managed install_data --force
+[2.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/map_server_node': PYTHONPATH=/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zine/isro/build/map_server_node/build
+[2.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/src/local_planner' returned '0': PYTHONPATH=/home/zine/isro/build/local_planner/prefix_override:/home/zine/isro/install/local_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/zine/isro/build/local_planner/build install --record /home/zine/isro/build/local_planner/install.log --single-version-externally-managed install_data --force
+[2.667s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/local_planner' for CMake module files
+[2.667s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/local_planner' for CMake config files
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/local_planner/lib'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/local_planner/bin'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/local_planner/lib/pkgconfig/local_planner.pc'
+[2.680s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/local_planner/lib/python3.8/site-packages'
+[2.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_planner', 'pythonpath')
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/local_planner/share/local_planner/hook/pythonpath.ps1'
+[2.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/local_planner/share/local_planner/hook/pythonpath.dsv'
+[2.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/local_planner/share/local_planner/hook/pythonpath.sh'
+[2.791s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/local_planner/bin'
+[2.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(local_planner)
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/local_planner/share/local_planner/package.ps1'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zine/isro/install/local_planner/share/local_planner/package.dsv'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/local_planner/share/local_planner/package.sh'
+[2.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/local_planner/share/local_planner/package.bash'
+[2.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/local_planner/share/local_planner/package.zsh'
+[2.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zine/isro/install/local_planner/share/colcon-core/packages/local_planner)
+[3.120s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/global_planner' for CMake module files
+[3.120s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/global_planner' for CMake config files
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/global_planner/lib'
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/global_planner/bin'
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/global_planner/lib/pkgconfig/global_planner.pc'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/global_planner/lib/python3.8/site-packages'
+[3.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_planner', 'pythonpath')
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/global_planner/share/global_planner/hook/pythonpath.ps1'
+[3.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/global_planner/share/global_planner/hook/pythonpath.dsv'
+[3.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/map_server_node' returned '0': PYTHONPATH=/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zine/isro/build/map_server_node/build
+[3.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/src/map_server_node': PYTHONPATH=/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_server_node build --build-base /home/zine/isro/build/map_server_node/build install --record /home/zine/isro/build/map_server_node/install.log --single-version-externally-managed install_data --force
+[3.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/src/global_planner' returned '0': PYTHONPATH=/home/zine/isro/build/global_planner/prefix_override:/home/zine/isro/install/global_planner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_planner build --build-base /home/zine/isro/build/global_planner/build install --record /home/zine/isro/build/global_planner/install.log --single-version-externally-managed install_data --force
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/global_planner/share/global_planner/hook/pythonpath.sh'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/global_planner/bin'
+[3.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_planner)
+[3.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/global_planner/share/global_planner/package.ps1'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zine/isro/install/global_planner/share/global_planner/package.dsv'
+[3.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/global_planner/share/global_planner/package.sh'
+[3.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/global_planner/share/global_planner/package.bash'
+[3.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/global_planner/share/global_planner/package.zsh'
+[3.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zine/isro/install/global_planner/share/colcon-core/packages/global_planner)
+[3.725s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/map_server_node' for CMake module files
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/map_server_node' for CMake config files
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/map_server_node/lib'
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/map_server_node/bin'
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/map_server_node/lib/pkgconfig/map_server_node.pc'
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/map_server_node/lib/python3.8/site-packages'
+[3.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_server_node', 'pythonpath')
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/map_server_node/share/map_server_node/hook/pythonpath.ps1'
+[3.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/src/map_server_node' returned '0': PYTHONPATH=/home/zine/isro/build/map_server_node/prefix_override:/home/zine/isro/install/map_server_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_server_node build --build-base /home/zine/isro/build/map_server_node/build install --record /home/zine/isro/build/map_server_node/install.log --single-version-externally-managed install_data --force
+[3.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/map_server_node/share/map_server_node/hook/pythonpath.dsv'
+[3.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/map_server_node/share/map_server_node/hook/pythonpath.sh'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/map_server_node/bin'
+[3.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map_server_node)
+[3.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/map_server_node/share/map_server_node/package.ps1'
+[3.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zine/isro/install/map_server_node/share/map_server_node/package.dsv'
+[3.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/map_server_node/share/map_server_node/package.sh'
+[3.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/map_server_node/share/map_server_node/package.bash'
+[3.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/map_server_node/share/map_server_node/package.zsh'
+[3.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zine/isro/install/map_server_node/share/colcon-core/packages/map_server_node)
+[3.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake /home/zine/isro/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/zine/isro/install/interfaces
+[3.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake --build /home/zine/isro/build/interfaces -- -j12 -l12
+[4.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake /home/zine/isro/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/zine/isro/install/sam_bot_description
+[4.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake --build /home/zine/isro/build/sam_bot_description -- -j12 -l12
+[4.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake --build /home/zine/isro/build/sam_bot_description -- -j12 -l12
+[4.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake --install /home/zine/isro/build/sam_bot_description
+[4.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_description)
+[4.321s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description' for CMake module files
+[4.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake --install /home/zine/isro/build/sam_bot_description
+[4.322s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description' for CMake config files
+[4.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_description', 'cmake_prefix_path')
+[4.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.ps1'
+[4.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.dsv'
+[4.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.sh'
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description/bin'
+[4.324s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description/lib/pkgconfig/sam_bot_description.pc'
+[4.324s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description/lib/python3.8/site-packages'
+[4.324s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description/bin'
+[4.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.ps1'
+[4.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.dsv'
+[4.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.sh'
+[4.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.bash'
+[4.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.zsh'
+[4.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zine/isro/install/sam_bot_description/share/colcon-core/packages/sam_bot_description)
+[4.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake --build /home/zine/isro/build/interfaces -- -j12 -l12
+[4.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_description)
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description' for CMake module files
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description' for CMake config files
+[4.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_description', 'cmake_prefix_path')
+[4.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.ps1'
+[4.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.dsv'
+[4.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.sh'
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description/bin'
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description/lib/pkgconfig/sam_bot_description.pc'
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description/lib/python3.8/site-packages'
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/sam_bot_description/bin'
+[4.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.ps1'
+[4.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.dsv'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.sh'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.bash'
+[4.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/sam_bot_description/share/sam_bot_description/package.zsh'
+[4.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zine/isro/install/sam_bot_description/share/colcon-core/packages/sam_bot_description)
+[4.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zine/isro/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake --install /home/zine/isro/build/interfaces
+[4.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces' for CMake module files
+[4.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zine/isro/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/isro/install/map_server_node:/home/zine/isro/install/local_planner:/home/zine/isro/install/global_planner:/opt/ros/foxy /usr/bin/cmake --install /home/zine/isro/build/interfaces
+[4.691s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces' for CMake config files
+[4.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.693s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/lib'
+[4.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.694s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/bin'
+[4.694s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.695s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/lib/python3.8/site-packages'
+[4.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[4.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[4.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[4.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[4.696s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/bin'
+[4.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/interfaces/share/interfaces/package.ps1'
+[4.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zine/isro/install/interfaces/share/interfaces/package.dsv'
+[4.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/interfaces/share/interfaces/package.sh'
+[4.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/interfaces/share/interfaces/package.bash'
+[4.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/interfaces/share/interfaces/package.zsh'
+[4.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zine/isro/install/interfaces/share/colcon-core/packages/interfaces)
+[4.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.770s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces' for CMake module files
+[4.771s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces' for CMake config files
+[4.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.773s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/lib'
+[4.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.774s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/bin'
+[4.774s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.774s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/lib/python3.8/site-packages'
+[4.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[4.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[4.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zine/isro/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[4.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zine/isro/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[4.776s] Level 1:colcon.colcon_core.environment:checking '/home/zine/isro/install/interfaces/bin'
+[4.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/interfaces/share/interfaces/package.ps1'
+[4.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zine/isro/install/interfaces/share/interfaces/package.dsv'
+[4.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/interfaces/share/interfaces/package.sh'
+[4.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/interfaces/share/interfaces/package.bash'
+[4.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/zine/isro/install/interfaces/share/interfaces/package.zsh'
+[4.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zine/isro/install/interfaces/share/colcon-core/packages/interfaces)
+[4.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.779s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.791s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zine/isro/install/local_setup.ps1'
+[4.821s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zine/isro/install/_local_setup_util_ps1.py'
+[4.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zine/isro/install/setup.ps1'
+[4.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zine/isro/install/local_setup.sh'
+[4.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zine/isro/install/_local_setup_util_sh.py'
+[4.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zine/isro/install/setup.sh'
+[4.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zine/isro/install/local_setup.bash'
+[4.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zine/isro/install/setup.bash'
+[4.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zine/isro/install/local_setup.zsh'
+[4.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zine/isro/install/setup.zsh'

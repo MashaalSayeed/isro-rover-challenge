@@ -1,0 +1,5 @@
+image:
+  width: 1000
+  height: 400
+  resolution: 0.12
+  origin: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
