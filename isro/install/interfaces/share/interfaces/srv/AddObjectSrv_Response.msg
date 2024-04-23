@@ -1,1 +1,0 @@
-/home/zine/isro/build/interfaces/rosidl_cmake/srv/AddObjectSrv_Response.msg

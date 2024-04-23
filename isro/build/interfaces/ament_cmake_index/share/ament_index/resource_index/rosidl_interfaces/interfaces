@@ -1,4 +1,0 @@
-srv/AddObjectSrv.idl
-srv/AddObjectSrv.srv
-srv/AddObjectSrv_Request.msg
-srv/AddObjectSrv_Response.msg

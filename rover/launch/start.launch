@@ -1,0 +1,10 @@
+<launch>
+  <param name="yaml_filename" value="/home/zine/isro_rover/rover/maps/isro_gmap.yaml" />
+  <node type="rviz" name="rviz" pkg="rviz" args="-d /home/zine/isro_rover/rover/params/rviz_config.rviz" />
+  <node pkg="map_server" name="map" type="map_node.py" output="screen">
+    <param name="inflation" value=10 />
+  </node>
+
+  <node pkg="planner" name="planner" type="global_planner.py" output="screen">
+  </node>
+</launch>
