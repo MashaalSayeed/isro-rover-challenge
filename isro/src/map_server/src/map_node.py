@@ -36,7 +36,6 @@ class MapServer:
         self.object_map = None
         self.objects = []
 
-        # self.yaml_filename = rospy.get_param('yaml_filename', '/home/zine/isro_rover/rover/maps/isro_gmap.yaml')
         self.yaml_filename = rospy.get_param('/yaml_filename', '')
         self.frame_id = rospy.get_param('~frame_id', 'map')
         self.inflation = rospy.get_param('~inflation', 10)
