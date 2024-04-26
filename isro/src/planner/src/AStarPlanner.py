@@ -17,7 +17,7 @@ class AStarPlanner:
     def heuristic(self, node, goal):
         return ((node.x - goal.x) ** 2 + (node.y - goal.y) ** 2) ** 0.5
 
-    def search(self, grid, start, end):
+    def astar(self, grid, start, end):
         open_list = []
         closed_list = set()
 

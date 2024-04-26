@@ -45,10 +45,10 @@ class AddObject:
 
 
 object_map = {
-  ObjectType.SmallObstacle: Object(ObjectType.SmallObstacle, 15, 80, YELLOW, width=15, height=15),
-  ObjectType.BigObstacle: Object(ObjectType.BigObstacle, 60, 80, GREEN, width=30, height=30),
-  ObjectType.SmallCrater: Object(ObjectType.SmallCrater, 20, 80, PURPLE, radius=10),
-  ObjectType.BigCrater: Object(ObjectType.BigCrater, 60, 80, DARKPURPLE, radius=20),
+  ObjectType.SmallObstacle: Object(ObjectType.SmallObstacle, 15, 20, YELLOW, width=15, height=15),
+  ObjectType.BigObstacle: Object(ObjectType.BigObstacle, 60, 100, GREEN, width=30, height=30),
+  ObjectType.SmallCrater: Object(ObjectType.SmallCrater, 20, 20, PURPLE, radius=10),
+  ObjectType.BigCrater: Object(ObjectType.BigCrater, 60, 100, DARKPURPLE, radius=20),
   ObjectType.Waypoint: Object(ObjectType.Waypoint, 0, 0, GRAY, width=110, height=110),
   ObjectType.StartPoint: Object(ObjectType.StartPoint, 0, 0, ORANGE, width=120, height=120),
   ObjectType.FinalPoint: Object(ObjectType.FinalPoint, 0, 0, DARKORANGE, radius=75),
@@ -105,6 +105,12 @@ def create_costmap(map: np.array, inflation):
   
       obj = object_map[int(map[i][j])]
       costmap[i][j] = obj.cost
+
+  # High cost on borders
+  costmap[0, :] = 100
+  costmap[:, 0] = 100
+  costmap[-1, :] = 100
+  costmap[:, -1] = 100
   
   # creates an inflation
   sigma = inflation

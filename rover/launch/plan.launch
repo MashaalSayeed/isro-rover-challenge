@@ -1,0 +1,39 @@
+<!-- 
+  Requires:
+  - Odometry publisher:    /odom
+  - Robot state publisher: /tf
+  - Sensors: /pointcloud
+-->
+
+
+<launch>
+  <param name="yaml_filename" value="/home/zine/isro_rover/rover/maps/isro_gmap.yaml" />
+  
+  <node type="rviz" name="rviz" pkg="rviz" args="-d /home/zine/isro_rover/rover/params/rviz_config.rviz" />
+  
+  <node pkg="map_server" name="map" type="map_node.py" output="screen">
+    <!-- <param name="inflation" value=10 /> -->
+  </node>
+
+  <!-- <node pkg="robot_setup" name="robot_setup" type="odom_publisher.py" output="screen"></node> -->
+
+  <node pkg="planner" name="global_planner" type="global_planner.py" output="screen">
+  </node>
+
+  <!-- <node name="dwa_local_planner" pkg="dwa_local_planner" type="cmake/dwa_local_planner" output="screen">
+  </node> -->
+  <!-- <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find teb_local_planner_tutorials)/cfg/diff_drive/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find teb_local_planner_tutorials)/cfg/diff_drive/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find teb_local_planner_tutorials)/cfg/diff_drive/dyn_obst/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find teb_local_planner_tutorials)/cfg/diff_drive/dyn_obst/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find teb_local_planner_tutorials)/cfg/diff_drive/dyn_obst/teb_local_planner_params.yaml" command="load" />
+  
+    <param name="controller_frequency" value="5.0" />
+    <param name="controller_patience" value="15.0" />
+
+    <rosparam file="/home/zine/isro_rover/rover/params/local_planner.yaml" command="load" />
+    <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+  </node> -->
+
+</launch>

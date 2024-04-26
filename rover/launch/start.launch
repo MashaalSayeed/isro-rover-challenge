@@ -1,10 +1,42 @@
+<!-- 
+  Requires:
+  - Odometry publisher:    /odom
+  - Robot state publisher: /tf
+  - Sensors: /pointcloud
+-->
+
+
 <launch>
-  <param name="yaml_filename" value="/home/zine/isro_rover/rover/maps/isro_gmap.yaml" />
+  <param name="yaml_filename" value="/home/zine/isro_rover/rover/maps/map.yaml" />
+  
   <node type="rviz" name="rviz" pkg="rviz" args="-d /home/zine/isro_rover/rover/params/rviz_config.rviz" />
+  
   <node pkg="map_server" name="map" type="map_node.py" output="screen">
-    <param name="inflation" value=10 />
+    <!-- <param name="inflation" value=10 /> -->
   </node>
 
-  <node pkg="planner" name="planner" type="global_planner.py" output="screen">
+  <node pkg="robot_setup" name="localization" type="localization_publisher.py" output="screen"></node>
+  <node pkg="robot_setup" name="odometry" type="odom_publisher.py" output="screen"></node>
+
+
+  <node pkg="planner" name="global_planner" type="global_planner.py" output="screen">
   </node>
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+
+    <rosparam file="/home/zine/isro_rover/rover/params/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="/home/zine/isro_rover/rover/params/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="/home/zine/isro_rover/rover/params/local_costmap_params.yaml" command="load" />
+    <rosparam file="/home/zine/isro_rover/rover/params/global_costmap_params.yaml" command="load" />
+ 
+    <!-- <param name="controller_frequency" value="5.0" />
+    <param name="controller_patience" value="15.0" /> -->
+
+    <rosparam file="/home/zine/isro_rover/rover/params/local_planner.yaml" command="load" />
+
+    <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+    <param name="base_global_planner " value="" />
+
+  </node>
+
 </launch>

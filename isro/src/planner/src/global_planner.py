@@ -30,14 +30,13 @@ class GlobalPlanner:
         self.on_configure()
 
     def on_configure(self):
-        self.algorithm = algorithms[self.algorithm_name]
+        self.algorithm = algorithms[self.algorithm_name]()
         rospy.loginfo("Configured global planner")
 
     def update_costmap(self, costmap: OccupancyGrid):
         height = costmap.info.height
         width = costmap.info.width
         self.costmap = np.array(costmap.data, dtype='int8').reshape((height, width))
-        np.savetxt('/home/zine/ac.txt', self.costmap)
         rospy.loginfo(f"Received costmap")
     
     def set_initial_pose(self, start: PoseWithCovarianceStamped):
@@ -60,12 +59,16 @@ class GlobalPlanner:
 
         print(start, goal)
         path = self.algorithm.search(costmap, start, goal)
+        if not path:
+            rospy.logwarn('Could not find path to goal')
+            return
 
         plan = Path()
         plan.header.frame_id = self.frame_id
         plan.poses = [self.point_to_posestamped(x) for x in path]
 
         self.plan_pub.publish(plan)
+        rospy.loginfo("Published path")
 
     def point_to_posestamped(self, point):
         pose = PoseStamped()
